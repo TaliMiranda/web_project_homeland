@@ -1,0 +1,124 @@
+.info-cards {
+  display: flex;
+  flex-direction: column;
+  margin: 92px 0 auto;
+  gap: 31px;
+}
+
+.info-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 48px;
+  grid-template-areas:
+  "title subtitle"
+  "image description"
+  "button description"
+  "span description";
+}
+
+.info-title {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  margin: 0;
+  max-width: 480px;
+  grid-area: title;
+}
+
+.info-subtitle-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  grid-area: subtitle;
+}
+
+.info-subtitle-label {
+  color: #aaaaaa;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 12%;
+}
+
+.info-subtitle {
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.info-city-image {
+  width: 100%;
+  height: 100%;
+  max-width: 460px;
+  max-height: 460px;
+  grid-area: image;
+}
+
+.info-description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  grid-area: description;
+}
+
+.info-description {
+  margin: 0;
+  font-size: 18px;
+  line-height: 29px;
+  max-width: 484px;
+}
+
+.buy-nft-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #0278fe;
+  border-radius: 4px;
+  font-weight: 600;
+  line-height: 21.78px;
+  color: #ffffff;
+  width: 100%;
+  height: 48px;
+  max-width: 355px;
+  border: none;
+  outline: none;
+  grid-area: button;
+  text-decoration: none;
+}
+
+.buy-nft-button:hover {
+  background-color: #0063d2;
+}
+
+@media screen and (max-width: 1024px) {
+  .info-title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .info-description {
+    font-size: 16px;
+    line-height: 26.08px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .info-card {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "subtitle"
+      "image"
+      "description"
+      "button";
+  }
+
+  .info-title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .buy-nft-button {
+    max-width: unset;
+  }
+}

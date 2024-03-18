@@ -1,0 +1,120 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 92px 48px 0;
+}
+
+.footer-wrapper-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/Footer Image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 1184px;
+  height: 740px;
+  margin-bottom: 92px;
+}
+
+.footer-wrapper-content:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/Footer Image.jpg");
+}
+
+.footer-content-wrapper {
+  padding: 234px 246px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer-title {
+  font-family: Inter;
+  font-style: normal;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  text-align: center;
+  margin-bottom: 32px;
+  color: #FFFDFD;
+}
+
+.footer-text {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.footer-text:nth-child(4) {
+  margin-bottom: 32px;
+}
+
+.footer-buy-button {
+  background-color: #0278fe;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 13px 20px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.footer-buy-button:hover {
+  background-color: #0063d2;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    margin: 0;
+  }
+
+  .footer-wrapper-content {
+    margin-bottom: 88px;
+  }
+
+  .footer-content-wrapper {
+    padding: 246px 56px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .footer-content-wrapper {
+    padding: 46px 16px;
+  }
+
+  .footer-title {
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 16px;
+  }
+
+  .footer-text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .footer-text:last-child {
+    margin-bottom: 24px;
+  }
+
+  .footer-copyright {
+    line-height: 14px;
+  }
+}
