@@ -1,6 +1,6 @@
 # Tripleten web_project_homeland
 
-Bem-vindo ao Projeto Homeland
+Bem-vindo ao Projeto Homeland!
 
 Uma página web que mostra as cidades natais de alguns dos valiosos funcionários da TripleTen!
 
@@ -10,7 +10,8 @@ Você pode acessar esse projeto https://github.com/TaliMiranda/web_project_homel
 
 Recursos Principais:
 
-HTML5
-CSS3
-Responsividade (para o uso de dispositivos com diferentes tamanhos de tela)
+*HTML5
+*CSS3
+*Metodologia BEM
+*Responsividade (para o uso de dispositivos com diferentes tamanhos de tela)
 
