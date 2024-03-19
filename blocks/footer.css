@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/Footer Image.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/Footer-Image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -20,7 +20,7 @@
 }
 
 .footer-wrapper-content:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/Footer Image.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/Footer-Image.jpg");
 }
 
 .footer-content-wrapper {
