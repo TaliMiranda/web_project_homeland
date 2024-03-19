@@ -6,7 +6,7 @@ Uma página web que mostra as cidades natais de alguns dos valiosos funcionário
 
 Visualização:
 
-Você pode acessar esse projeto https://github.com/TaliMiranda/web_project_homeland para conhecer algumas das cidades natais de alguns funcionários da TripleTen.
+Você pode acessar esse projeto (https://talimiranda.github.io/web_project_homeland/) para conhecer algumas das cidades natais de alguns funcionários da TripleTen.
 
 Recursos Principais:
 
